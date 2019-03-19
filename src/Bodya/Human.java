@@ -3,9 +3,6 @@ package Bodya;
 import java.util.Date;
 
 
-/**
- * Created by asus on 24.02.2019.
- */
 public class Human {
     private String name;
     private String surename;
@@ -13,7 +10,7 @@ public class Human {
 
     public Human(){
        name = "Bodya";
-        surename = "M";
+        surename = "Maenkov";
         birthday = new Date();
     }
     public Human(String name, String surename, String date) {
